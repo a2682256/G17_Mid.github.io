@@ -1,0 +1,392 @@
+@charset "utf-8";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image:url("../images/background1.jpg");
+  /*圖片來源https://reurl.cc/4m851D*/
+}
+
+/*導覽列樣式*/
+header {
+  width: 100%;
+  min-width: 800px;
+  height: 80px;
+  background: rgba(248, 168, 122, 0.7);
+  box-shadow: 0px 1px 10px 0px #333;
+  position: fixed;
+  z-index: 10;
+}
+
+/* logo圖示 */
+header img.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  position: relative;
+  z-index: 30;
+  left: 50%;
+  top: 25px;
+  margin-left: -40px;
+  box-shadow: 0px 1px 3px 1px rgb(248, 142, 3);
+}
+
+.navbar {
+  width: 1000px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  left: 50%;
+  top: -50px;
+  margin-left: -400px;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  width: 150px;
+  text-align: center;
+  float: left;
+}
+
+/*導覽列字型*/
+div.navbar ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 微軟正黑體;
+  letter-spacing: 5px;
+}
+
+.navbar ul li:nth-child(2) {
+  margin-right: 200px;
+}
+
+.navbar ul a:hover {
+  color: rgb(250, 173, 8);
+}
+
+/*跑馬燈*/
+.marquee1{
+  margin-top: 30px;
+}
+.marquee2 a{
+  text-decoration: none;
+  font-size: 18pt;
+  font-family: 新細明體;
+  font-style: normal;
+  font-weight: bolder;
+  color: rgb(201, 89, 15);
+}
+.marquee2 a:hover{
+  background-color: rgba(255, 244, 144, 0.788);
+}
+
+/*側邊欄*/
+.section_left{
+  position: fixed;
+  left: 0;
+  top: 50%;
+  width: 170px;
+  height: 230px;
+  margin-top: -2.5em;
+  background-image: url(../images/section.png);
+  background-size: 170px;
+  border-radius: 30px;
+  font-family: 微軟正黑體;
+  font-weight: bolder;
+  line-height: 35pt;
+  z-index: 10;
+}
+section a:hover{
+  font-weight: bold;
+  background-image: url(../images/button.png);
+  background-size: 100px;
+  color: rgb(255, 6, 48);
+}
+.section_ul{
+  font-size: 17pt;
+  list-style: none;
+}
+
+/*中間版型*/
+.container {
+  width: 1300px;
+  border: 1px solid #666;
+  margin: 0 auto;
+  background: rgba(255, 251, 192, 0.822);
+  background-image: url(../images/background.jpg);
+  /*圖片來源https://www.sc115.com/tupian/598770.html*/
+  background-size: 500px;
+  box-shadow: 0px 0px 10px 0px rgb(80, 80, 80);
+  position: relative;
+  top: 80px;
+  z-index: 5;
+}
+
+/*內文*/
+.content {
+  padding: 20px 25px;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: justify;
+}
+
+/*大區塊*/
+.big2{
+  columns: 2;
+  margin-left: 70px;
+  margin-top: 25px;
+  margin-bottom: 140px;
+  column-gap: 0;
+}
+
+/*最新消息*/
+.img_td {
+border: rgb(0, 0, 0) solid 3px;
+border-radius: 50px;
+}
+.news {
+  border:6px #9b9999d7 ;
+  border-radius: 80px;
+  text-align: center;
+  font-family: 微軟正黑體;
+  background-color: rgba(248, 172, 255, 0.5);
+  box-shadow: 0px 0px 60px 0px rgba(156, 141, 173, 0.603);
+}
+
+/*最新消息表格樣式*/
+td a{
+  color: rgb(0, 0, 0);
+}
+.td0{
+font-weight: bold;
+font-size: 20pt;
+letter-spacing: 5px;
+}
+.td1{
+  background-color: rgba(255, 255, 255, 0.733);
+  border-bottom: #aaaaaac4 solid 1px ;
+  text-align: left;
+}
+.tdnone{
+  border:none
+}
+a {
+  text-decoration: none;
+}
+.td2 .tdnone, a:hover {
+background-color: rgba(255, 251, 0, 0.479);
+}
+/*招生簡章*/
+.news1 {
+  border: 6px #c5babad7;
+  border-radius: 15px;
+  text-align: left;
+  font-family: 微軟正黑體;
+  background-color: rgba(168, 168, 168, 0.63);
+  box-shadow: 0px 0px 60px 0px rgba(156, 141, 173, 0.603);
+}
+
+.td2 {
+background-color: rgba(255, 255, 255, 0.733);
+border-bottom: #aaaaaac4 solid 1px;
+text-align: left;
+}
+
+/*影片介紹區塊*/
+.video2{
+  margin-left: 200px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+.p2 {
+  margin-right: 200px;
+}
+.p3{
+  margin-right: 200px;
+font-size: 30pt;
+text-align: center;
+letter-spacing: 10px;
+font-family: 微軟正黑體;
+font-weight: bold;
+color: rgb(136, 18, 28);
+}
+/*關於中原圖片區塊*/
+.schoo2{
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  column-gap: 0;
+}
+.school_table{
+  border: solid 1px black;
+}
+
+/*關於中原標題*/
+caption ,.p1,.p2{
+  margin-left: 0px;
+  margin-bottom: 35px;
+  font-size: 30pt;
+  text-align: center;
+  letter-spacing: 10px;
+  font-family: 微軟正黑體;
+  font-weight: bold;
+  color: rgb(136, 18, 28);
+}
+img{
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(10px 12px 7px rgba(134, 128, 128, 0.7))
+}
+/*圖片特效*/
+.img_td1 img:hover {
+  transform: scale(2, 2);
+  transition: all 1s ease-out;
+}
+.img_td2 img:hover {
+  transform: scale(2, 2);
+  transition: all 1s ease-out;
+}
+.img_td3 img:hover {
+  transform: scale(2, 2);
+  transition: all 1s ease-out;
+}
+.img_td4 img:hover {
+  transform: scale(2, 2);
+  transition: all 1s ease-out;
+}
+.img_td5 img:hover {
+  transform: scale(2, 2);
+  transition: all 1s ease-out;
+}
+.img_td6 img:hover {
+  transform: scale(2, 2);
+  transition: all 1s ease-out;
+}
+
+/*上邊框*/
+.about,
+.school,
+.video1,
+.contact
+{
+  border-top: 15px solid transparent;
+  border-image: url(../images/border.png) 15 stretch;
+}
+.big1{
+  border-bottom: 15px solid transparent;
+  border-image: url(../images/border.png) 15 stretch;
+}
+
+/*關於我們*/
+.about{
+  margin: 40px;
+  margin-bottom: 140px;
+}
+
+/*小組成員標題*/
+.p1{
+  margin-top: 70px;
+}
+/*心得*/
+.member{
+  font-family: 微軟正黑體;
+  font-size: 18pt;
+  font-weight: bold;
+  background-color: rgba(150, 162, 179, 0.151);
+  border-radius: 30px;
+}
+/*組員照片*/
+.table_about{
+  margin-left: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+/*照片樣式*/
+.member_td,.img_td1,.img_td2,.img_td3,.img_td4 {
+  border-radius: 60px;
+  overflow: hidden;
+}
+/*聯絡我們*/
+form{
+  font-size: 20pt;
+  font-weight: bold;
+  font-family: 微軟正黑體;
+  margin-left: 500px;
+
+}
+.text1 {
+  width: 300px;
+  height: 35px;
+  font-family: 微軟正黑體;
+  font-size: 20pt;
+}
+textarea{
+  width: 350px;
+  height: 200px;
+  font-family: 微軟正黑體;
+  font-size: 20pt;
+}
+.button2{
+  font-family: 微軟正黑體;
+  font-size: 20pt;
+  font-weight: bold;
+  background-color: rgba(250, 228, 26, 0.753);
+}
+.contact{
+  margin-bottom: 80px;
+}
+/*左footer字型*/
+.footer_text {
+ font-size: 15px;
+ display: block;
+ font-style: normal;
+ text-decoration: none;
+ color: #000;
+ font-family: 微軟正黑體;
+ font-weight: bold;
+}
+
+/*footer*/
+.footer {
+  padding-top: 15px;
+  height: 60px;
+  line-height: 20px;
+  background: rgba(255, 253, 238, 0.842);
+  columns:3;
+  position: relative;
+}
+
+/*右footer*/
+.td_text a{
+  text-decoration: none;
+  color: rgb(255, 94, 0);
+  font-size: 15px;
+  font-family: 微軟正黑體;
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+/*TOP回頂端*/
+.td_index a{
+  text-decoration: none;
+  color: rgba(182, 61, 31, 0.849);
+  font-size: 18px;
+  font-family: 微軟正黑體;
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+}
+
+/*右footer連結互動顏色*/
+.td_text a:hover {
+background-color: rgba(252, 250, 138, 0.76);
+background-image: url(../images/button.png);
+background-size: 90px;
+}
